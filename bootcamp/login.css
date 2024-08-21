@@ -1,0 +1,154 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #fdfbf4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 45px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 120px;
+}
+
+.login-box {
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 340px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.login-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+.password-container {
+    position: relative;
+}
+
+#toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.forgot-pasword {
+    font-size: 10px;
+    color: #666;
+    text-align: right;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.L {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.R {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    background-color: #35d169;
+    color: white;
+}
+
+.register-button {
+    background-color: #e5ffe5;
+    color: #35d169;
+}
+
+.or {
+    font-size: 12px;
+    color: #666;
+    margin: 15px 0;
+}
+
+.btn-google {
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-google img {
+    justify-content: center;
+}
+

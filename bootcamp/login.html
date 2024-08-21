@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@100;300;400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="assets/Logo.png">
+            </div>
+            <nav class="navbar">
+            </nav>
+        </header>
+        <div class="login-box">
+            <h2>Masuk ke Akun</h2>
+            <p>Yuk, lanjutin belajarmu di videobelajar.</p>
+            <form id="form-login">
+                <div class="input-group">
+                    <label for="email">E-Mail <span style="color: red;">*</span></label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Kata Sandi <span style="color: red;">*</span></label>
+                    <div class="password-container">
+                </div>
+                    <input type="password"required >
+                </div> 
+    
+                <a href="#" class="forgot-pasword">Lupa Password?</a>
+                
+                <button type="submit" class=" L login-button">Masuk</button> 
+                <button type="submit" class=" R register-button">Daftar</button> 
+                <p class="or">atau</p>
+    
+                <button type="button" class="btn-google"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-1024.png" class="google-button" width="20" height="20"> Masuk dengan Google</button>      
+    
+            </form>
+    
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
